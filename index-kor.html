@@ -8,7 +8,6 @@
       html {
         font-size: 10px;
       }
-
       body {
         font-family: 'Helvetica', sans-serif;
         font-size: 1.6rem;
@@ -27,7 +26,7 @@
       h2 {
         line-height: 1em;
         font-size: 2.5rem;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
       }
       h3 {
         font-size: 1.8rem;
@@ -41,7 +40,35 @@
         max-width: 700px;
         align: auto;
       }
+      .button {
+        background-color: #EEE;
+        border: 2px solid black;
+        color: black;
+        padding: 8px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .button:hover {
+        background-color: #edda06;
+        border: 2px solid black;
+        color: white;
+        padding: 8px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        transition-duration: 0.1s;
+      }
+      #lang-button {
+      }
       #img-div {
+        margin-top: 20px;
         margin-bottom: 50px;
       }
       #div-title {
@@ -70,6 +97,9 @@
       <h1 id="title">Hyper-Domestique</h1>
       <h2 id="subtitle">Safer cycling with AI</h2>
     </div>
+    <div id="lang-button">
+      <a href="index.html" class="button">English</a>
+      <a href="index-kor.html" class="button">한국어</a>
     <div id="img-div">
       <img id="img-caption"
            src="https://github.com/neuroquantifier/hyper-domestique/raw/main/assets/banner-github-illustration.png">
