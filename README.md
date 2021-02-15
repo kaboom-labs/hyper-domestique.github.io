@@ -1,2 +1,1 @@
-# hyper-domestique.github.io
-static page for Hyper-Domestique
+# Website for Hyper-Domestique
