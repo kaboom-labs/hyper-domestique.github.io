@@ -70,6 +70,9 @@
       #img-div {
         margin-top: 20px;
         margin-bottom: 50px;
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
       }
       #div-title {
         font-family: 'Bebas Neue';
@@ -80,23 +83,26 @@
       }
       #img-caption {
         font-size: 0.1rem;
+        max-width: 100%;
       }
 
       #div-whatis {
         font-family: 'Helvetica', sans-serif;
         background-color: #EEEEEE;
-        padding: 3%;
+        padding: 2%;
         margin: auto;
         margin-top: 40px;
         margin-bottom: 100px;
         max-width: 700px;
         box-shadow: 5px 5px 30px 5px #BBB;
       }
-      
-      #div-youtube {
-        background-color: #000000;
+      .player-band {
+        background-color: #000;
         padding: 30px;
         max-width: 100%;
+      }
+      #div-youtube {
+        max-width: 700px;
         margin: auto;
       }
       
@@ -115,10 +121,12 @@
            src="https://github.com/neuroquantifier/hyper-domestique/raw/main/assets/banner-github-illustration.png">
       <h3><em>"It's like Tesla autopilot, but for bicycles."</em></h3>
     </div>
-    <div id="div-youtube">
-      <iframe width="700" height="380" src="https://www.youtube.com/embed/xrwn0GRxzpE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div id='div-whatis'>
+    <div class="player-band">
+      <div id="div-youtube">
+        <iframe width="100%" height="380" src="https://www.youtube.com/embed/xrwn0GRxzpE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+      <div id='div-whatis'>
       <h2>What is Hyper-Domestique?</h2>
       <p><strong>Hyper-Domestique makes cycling safer with the latest in AI computer vision.</strong></p>
       <p>Cycling is a wonderful sport and an ideal mode of transportation thanks to its unrivaled health benefits and low environmental impact. It is no surprise that last year, more people chose to ride bikes than ever before.</p>
